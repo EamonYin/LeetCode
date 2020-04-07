@@ -9,6 +9,31 @@ package addTwoNumbers;
  * 您可以假设除了数字 0 之外，这两个数都不会以 0 开头。
  */
 public class addTwoNumbers {
+
+    public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode sum = new ListNode(0);
+        ListNode p = l1, q = l2, curr = sum;
+        int carry = 0;//进位
+        while(p != null || q != null) {
+            //解决 Operator'' cannot be applied to 'int'， 'addTwoNumbers. ListNode
+            int x = (p != null) ? p.val : 0;
+            int y = (q != null) ? q.val : 0;
+
+            int numsum = carry + x + y;
+            carry = numsum / 10;//获取进位的值
+            curr.next = new ListNode(numsum % 10);//取模运算，把个位数字存到链表sum中
+            curr = curr.next;
+
+            if (p != null) p = p.next;
+            if (q != null) q = q.next;
+
+        }
+        if (carry > 0) {
+            curr.next = new ListNode(carry);
+        }
+
+        return sum.next;
+    }
     public static void main(String[] args) {
         ListNode listNode1 = new ListNode(2);
         ListNode listNode2 = new ListNode(4);
@@ -30,33 +55,4 @@ public class addTwoNumbers {
         }
     }
 
-    public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-      //对于add操作我们addFirst 总是和其他地方不一样，因为头结点是没有前一个结点的，因此我们要浪费一个空间使其为dummyHead这样链表总是以nul作为头结点
-        //https://www.jianshu.com/p/e8103ebff64c
-        ListNode sum = new ListNode(0);
-        ListNode p = l1, q = l2, curr = sum;
-        int carry = 0;//进位
-        while(p != null && q != null) {
-            //解决 Operator'' cannot be applied to 'int'， 'addTwoNumbers. ListNode
-            int x = (p != null) ? p.val : 0;
-            int y = (q != null) ? q.val : 0;
-
-            int numsum = carry + x + y;
-            carry = numsum / 10;//获取进位的值
-            curr.next = new ListNode(numsum % 10);//取模运算，把个位数字存到链表sum中
-            curr = curr.next;
-
-            if (p != null) p = p.next;
-            if (q != null) q = q.next;
-
-//            System.out.print(curr.val);
-
-        }
-        if (carry > 0) {
-            curr.next = new ListNode(carry);
-        }
-
-        //这里不是curr.next 是 sum.next
-        return sum.next;
-    }
 }
