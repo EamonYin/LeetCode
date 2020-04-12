@@ -8,7 +8,6 @@ public class Reverse {
     public static int reverse(int x) {
         //int类型能存放10位的数字，最大为2147483647；
         int rev = 0;
-
             while (x != 0) {
                 int old = rev;//记录上一次循环的rev
                 System.out.println("----"+rev+"~~~~~"+Integer.MAX_VALUE);
