@@ -9,3 +9,4 @@
 7. 有效的括号        isValid  
 8. 合并两个有序链表  mergeTwoLists.mergeTwoLists  
 9. 删除排序数组中的重复项    removeDuplicates  
+10.移除元素  removeElement
