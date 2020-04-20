@@ -10,4 +10,5 @@
 8. 合并两个有序链表  mergeTwoLists.mergeTwoLists  
 9. 删除排序数组中的重复项    removeDuplicates  
 10.移除元素  removeElement  
-11.实现strStr()函数  strStr
+11.实现strStr()函数  strStr  
+12.搜索插入位置      searchInsert
