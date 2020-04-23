@@ -12,4 +12,5 @@
 10.移除元素  removeElement  
 11.实现strStr()函数  strStr  
 12.搜索插入位置      searchInsert  
-13.外观数列          countAndSay
+13.外观数列          countAndSay  
+14.最大子序和        maxSubArray  
