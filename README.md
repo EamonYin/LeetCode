@@ -14,3 +14,5 @@
 12.搜索插入位置      searchInsert  
 13.外观数列          countAndSay  
 14.最大子序和        maxSubArray  
+15.二进制求和（未完）addBinary  
+15.相同的树          isSameTree
