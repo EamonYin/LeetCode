@@ -15,4 +15,5 @@
 13.外观数列          countAndSay  
 14.最大子序和        maxSubArray  
 15.二进制求和（未完）addBinary  
-15.相同的树          isSameTree
+15.相同的树          isSameTree  
+16.二叉树的最大深度  maxDepth
