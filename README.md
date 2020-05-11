@@ -20,5 +20,8 @@
 17. 二叉树的最大深度 maxDepth  
 18. 二叉树的层次遍历 II levelOrderBottom.levelOrderBottom  
 19. 二叉树的层次遍历 levelOrder.levelOrder  
-20. 
+20. 树的前、中、后序遍历（非Leetcode题） TreeTraversal.TreeTraversal  
+21. 将有序数组转换为二叉搜索树 sortedArrayToBST.sortedArrayToBST  
+22. 
+
 
