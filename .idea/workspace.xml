@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e2ec998-36b8-46f2-b3ee-09196ba83ece" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/isBalanced/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/isBalanced/isBalanced.java" afterDir="false" />
+    <list default="true" id="2e2ec998-36b8-46f2-b3ee-09196ba83ece" name="Default Changelist" comment="110. 平衡二叉树">
+      <change afterPath="$PROJECT_DIR$/src/minDepth/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/minDepth/minDepth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,17 +88,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="minDepth" />
       <recent name="isBalanced" />
       <recent name="sortedArrayToBST" />
       <recent name="TreeTraversal" />
       <recent name="levelOrder" />
-      <recent name="levelOrderBottom" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="addTwoNumbers" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.isBalanced">
+  <component name="RunManager" selected="应用程序.minDepth">
     <configuration name="TreeTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TreeTraversal.TreeTraversal" />
       <module name="LeetCode" />
@@ -126,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="levelOrderBottom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="levelOrderBottom.levelOrderBottom" />
+    <configuration name="maxDepth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maxDepth.maxDepth" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="levelOrderBottom.*" />
+          <option name="PATTERN" value="maxDepth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="maxDepth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="maxDepth.maxDepth" />
+    <configuration name="minDepth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="minDepth.minDepth" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="maxDepth.*" />
+          <option name="PATTERN" value="minDepth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,6 +166,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.minDepth" />
         <item itemvalue="应用程序.isBalanced" />
       </list>
     </recent_temporary>
@@ -232,7 +232,8 @@
       <workItem from="1589156162719" duration="3003000" />
       <workItem from="1589933775956" duration="273000" />
       <workItem from="1589941084659" duration="1198000" />
-      <workItem from="1590034107377" duration="2221000" />
+      <workItem from="1590034107377" duration="2992000" />
+      <workItem from="1590139923132" duration="7699000" />
     </task>
     <task id="LOCAL-00001" summary="2. 两数相加">
       <created>1586068483076</created>
@@ -367,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588896188838</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="110. 平衡二叉树">
+      <created>1590037250155</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1590037250155</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,6 +391,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2. 两数相加" />
@@ -401,13 +410,58 @@
     <MESSAGE value="101. 对称二叉树" />
     <MESSAGE value="104. 二叉树的最大深度" />
     <MESSAGE value="102&amp;107. 二叉树的层序遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="102&amp;107. 二叉树的层序遍历" />
+    <MESSAGE value="110. 平衡二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="110. 平衡二叉树" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1397" height="171" key="GridCell.Tab.0.bottom" timestamp="1590152453794">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state width="1493" height="162" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1590037092628" />
+    <state width="1397" height="171" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1590152453794" />
+    <state width="1397" height="171" key="GridCell.Tab.0.center" timestamp="1590152453794">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state width="1493" height="162" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1590037092628" />
+    <state width="1397" height="171" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1590152453794" />
+    <state width="1397" height="171" key="GridCell.Tab.0.left" timestamp="1590152453794">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state width="1493" height="162" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1590037092627" />
+    <state width="1397" height="171" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1590152453794" />
+    <state width="1397" height="171" key="GridCell.Tab.0.right" timestamp="1590152453794">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state width="1493" height="162" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1590037092628" />
+    <state width="1397" height="171" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1590152453794" />
+    <state width="1397" height="171" key="GridCell.Tab.1.bottom" timestamp="1590152453795">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="171" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1590152453795" />
+    <state width="1397" height="171" key="GridCell.Tab.1.center" timestamp="1590152453795">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="171" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1590152453795" />
+    <state width="1397" height="171" key="GridCell.Tab.1.left" timestamp="1590152453795">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="171" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1590152453795" />
+    <state width="1397" height="171" key="GridCell.Tab.1.right" timestamp="1590152453795">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="171" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1590152453795" />
     <state x="270" y="57" key="SettingsEditor" timestamp="1590034431261">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1590034431261" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1590037256138">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1590037256138" />
+    <state x="2175" y="159" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1590153488115">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state x="2175" y="159" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1590153488115" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -572,6 +626,16 @@
           <line>33</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/minDepth/minDepth.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/minDepth/minDepth.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -579,6 +643,7 @@
         <watch expression="charAt" />
         <watch expression="left" />
         <watch expression="right" />
+        <watch expression="minDepth(root.right)" />
       </configuration>
     </watches-manager>
   </component>
