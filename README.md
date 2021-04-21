@@ -29,9 +29,10 @@
 26. 第 N 个泰波那契数 Tibonacci  
 27. 剑指 Offer 05. 替换空格  ReplaceSpace  
 28. 面试题 08.06. 汉诺塔问题 Hanota  
-29. 1672. 最富有客户的资产总量 MaximumWealth  
-30. 1512. 好数对的数目 NumIdenticalPairs  
-31. 
+29. 最富有客户的资产总量 MaximumWealth  
+30. 好数对的数目 NumIdenticalPairs  
+31. 拥有最多糖果的孩子 KidsWithCandies  
+
 
 
 
