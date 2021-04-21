@@ -24,7 +24,7 @@ public class KidsWithCandies {
         for (int i = 0; i < candies.length; i++) {
             nums.add(candies[i]);
         }
-        //加上额外值最大的数字
+        //获取数组最大值
         Integer max = Collections.max(nums);
 
         for (int j = 0; j < candies.length; j++) {
