@@ -32,6 +32,8 @@
 29. 最富有客户的资产总量 MaximumWealth  
 30. 好数对的数目 NumIdenticalPairs  
 31. 拥有最多糖果的孩子 KidsWithCandies  
+32. 重新排列数组 Shuffle  
+
 
 
 
