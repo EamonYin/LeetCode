@@ -35,6 +35,8 @@
 32. 重新排列数组 Shuffle  
 33. 数组异或操作 XorOperation  
 34. 统计匹配检索规则的物品数量 CountMatches  
+35. 按既定顺序创建目标数组 CreateTargetArray  
+
 
 
 
