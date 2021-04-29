@@ -38,6 +38,10 @@
 35. 按既定顺序创建目标数组 CreateTargetArray  
 36. 解压缩编码列表 DecompressRLElist  
 37. 有多少小于当前数字的数字 SmallerNumbersThanCurrent  
+38. 访问所有点的最小时间 [MinTimeToVisitAllPoints](https://leetcode-cn.com/problems/minimum-time-visiting-all-points/)  
+
+
+
 
 
 
