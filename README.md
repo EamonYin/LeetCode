@@ -40,6 +40,8 @@
 37. 有多少小于当前数字的数字 SmallerNumbersThanCurrent  
 38. 访问所有点的最小时间 [MinTimeToVisitAllPoints](https://leetcode-cn.com/problems/minimum-time-visiting-all-points/)  
 39. 统计位数为偶数的数字 FindNumbers  
+40. 最少操作使数组递增 MinOperations  
+
 
 
 

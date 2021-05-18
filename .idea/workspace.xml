@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e2ec998-36b8-46f2-b3ee-09196ba83ece" name="Default Changelist" comment="访问所有点的最小时间 MinTimeToVisitAllPoints">
-      <change afterPath="$PROJECT_DIR$/src/FindNumbers.java" afterDir="false" />
+    <list default="true" id="2e2ec998-36b8-46f2-b3ee-09196ba83ece" name="Default Changelist" comment="统计位数为偶数的数字 FindNumbers">
+      <change afterPath="$PROJECT_DIR$/src/MinOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -89,14 +89,7 @@
       <recent name="addTwoNumbers" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.FindNumbers">
-    <configuration name="CreateTargetArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CreateTargetArray" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="应用程序.MinOperations">
     <configuration name="DecompressRLElist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DecompressRLElist" />
       <module name="LeetCode" />
@@ -106,6 +99,13 @@
     </configuration>
     <configuration name="FindNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FindNumbers" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MinOperations" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.MinOperations" />
         <item itemvalue="应用程序.FindNumbers" />
         <item itemvalue="应用程序.MinTimeToVisitAllPoints" />
         <item itemvalue="应用程序.SmallerNumbersThanCurrent" />
         <item itemvalue="应用程序.DecompressRLElist" />
-        <item itemvalue="应用程序.CreateTargetArray" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +228,8 @@
       <workItem from="1619611727381" duration="1708000" />
       <workItem from="1619696602511" duration="3638000" />
       <workItem from="1619937188477" duration="616000" />
-      <workItem from="1621253176163" duration="406000" />
+      <workItem from="1621253176163" duration="592000" />
+      <workItem from="1621338660846" duration="1277000" />
     </task>
     <task id="LOCAL-00001" summary="2. 两数相加">
       <created>1586068483076</created>
@@ -496,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619700714037</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="统计位数为偶数的数字 FindNumbers">
+      <created>1621253637312</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1621253637312</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,7 +523,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="38. 外观数列" />
     <MESSAGE value="53. 最大子序和" />
     <MESSAGE value="58. 最后一个单词的长度" />
     <MESSAGE value="100.相同的树" />
@@ -540,57 +547,58 @@
     <MESSAGE value="解压缩编码列表 DecompressRLElist" />
     <MESSAGE value="有多少小于当前数字的数字 SmallerNumbersThanCurrent" />
     <MESSAGE value="访问所有点的最小时间 MinTimeToVisitAllPoints" />
-    <option name="LAST_COMMIT_MESSAGE" value="访问所有点的最小时间 MinTimeToVisitAllPoints" />
+    <MESSAGE value="统计位数为偶数的数字 FindNumbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="统计位数为偶数的数字 FindNumbers" />
   </component>
   <component name="WindowStateProjectService">
     <state width="391" height="466" key="DebuggerActiveHint" timestamp="1619698705472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="391" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1619698705472" />
-    <state width="1492" height="155" key="GridCell.Tab.0.bottom" timestamp="1619701473237">
+    <state width="1492" height="230" key="GridCell.Tab.0.bottom" timestamp="1621340316454">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1492" height="103" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1619273907000" />
-    <state width="1492" height="155" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1619701473237" />
-    <state width="1492" height="155" key="GridCell.Tab.0.center" timestamp="1619701473237">
+    <state width="1492" height="230" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621340316454" />
+    <state width="1492" height="230" key="GridCell.Tab.0.center" timestamp="1621340316454">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1492" height="103" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1619273906999" />
-    <state width="1492" height="155" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1619701473237" />
-    <state width="1492" height="155" key="GridCell.Tab.0.left" timestamp="1619701473237">
+    <state width="1492" height="230" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1621340316454" />
+    <state width="1492" height="230" key="GridCell.Tab.0.left" timestamp="1621340316453">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1492" height="103" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1619273906999" />
-    <state width="1492" height="155" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1619701473237" />
-    <state width="1492" height="155" key="GridCell.Tab.0.right" timestamp="1619701473237">
+    <state width="1492" height="230" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1621340316453" />
+    <state width="1492" height="230" key="GridCell.Tab.0.right" timestamp="1621340316454">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1492" height="103" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1619273907000" />
-    <state width="1492" height="155" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1619701473237" />
-    <state width="1492" height="503" key="GridCell.Tab.1.bottom" timestamp="1619701473234">
+    <state width="1492" height="230" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1621340316454" />
+    <state width="1492" height="230" key="GridCell.Tab.1.bottom" timestamp="1621340316455">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="503" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1619701473234" />
-    <state width="1492" height="503" key="GridCell.Tab.1.center" timestamp="1619701473234">
+    <state width="1492" height="230" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621340316455" />
+    <state width="1492" height="230" key="GridCell.Tab.1.center" timestamp="1621340316454">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="503" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1619701473234" />
-    <state width="1492" height="503" key="GridCell.Tab.1.left" timestamp="1619701473234">
+    <state width="1492" height="230" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1621340316454" />
+    <state width="1492" height="230" key="GridCell.Tab.1.left" timestamp="1621340316454">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="503" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1619701473234" />
-    <state width="1492" height="503" key="GridCell.Tab.1.right" timestamp="1619701473234">
+    <state width="1492" height="230" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1621340316454" />
+    <state width="1492" height="230" key="GridCell.Tab.1.right" timestamp="1621340316454">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="503" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1619701473234" />
+    <state width="1492" height="230" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1621340316454" />
     <state x="270" y="57" key="SettingsEditor" timestamp="1617971805971">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1617971805971" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1619700738094">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1621253727017">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1619700738094" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1621253727017" />
     <state x="470" y="168" key="refactoring.ChangeSignatureDialog" timestamp="1618402255047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -852,6 +860,21 @@
           <url>file://$PROJECT_DIR$/src/MinTimeToVisitAllPoints.java</url>
           <line>32</line>
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MinOperations.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MinOperations.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MinOperations.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
