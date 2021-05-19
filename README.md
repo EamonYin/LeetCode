@@ -41,6 +41,8 @@
 38. 访问所有点的最小时间 [MinTimeToVisitAllPoints](https://leetcode-cn.com/problems/minimum-time-visiting-all-points/)  
 39. 统计位数为偶数的数字 FindNumbers  
 40. 最少操作使数组递增 MinOperations  
+41. 在既定时间做作业的学生人数 BusyStudent  
+
 
 
 
