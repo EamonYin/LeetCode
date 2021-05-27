@@ -45,6 +45,9 @@
 42. 找到最高海拔 LargestAltitude  
 43. 矩阵对角线元素的和 [DiagonalSum](https://leetcode-cn.com/problems/matrix-diagonal-sum/solution/ju-zhen-dui-jiao-xian-yuan-su-de-he-by-leetcode-so/)  
 44. 翻转图像 [FlipAndInvertImage](https://leetcode-cn.com/problems/flipping-an-image/solution/liang-chong-jie-fa-by-uive-x3vk/)  
+45. 将每个元素替换为右侧最大元素 [replaceElements(有个用例自己的方法超时了)](https://leetcode-cn.com/problems/replace-elements-with-greatest-element-on-right-side/solution/cong-you-wang-zuo-yi-ci-bian-li-by-lirunjun/)  
+46. 
+
 
 
 
