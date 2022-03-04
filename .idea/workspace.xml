@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -22,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e2ec998-36b8-46f2-b3ee-09196ba83ece" name="Default Changelist" comment="111. 二叉树的最小深度">
-      <change afterPath="$PROJECT_DIR$/src/climbStairs.java" afterDir="false" />
+    <list default="true" id="2e2ec998-36b8-46f2-b3ee-09196ba83ece" name="Default Changelist" comment="翻转图像 [FlipAndInvertImage]">
+      <change afterPath="$PROJECT_DIR$/src/replaceElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -42,23 +39,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>/10</find>
-      <find>add(</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-    <dirStrings>
-      <dir>E:\StudyTestDemo\LeetCode</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -90,7 +72,10 @@
     <property name="project.structure.last.edited" value="项目" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -104,55 +89,37 @@
       <recent name="addTwoNumbers" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.climbStairs">
-    <configuration name="TreeTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TreeTraversal.TreeTraversal" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TreeTraversal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="climbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="climbStairs" />
+  <component name="RunManager" selected="应用程序.replaceElements">
+    <configuration name="BusyStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BusyStudent" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hasPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hasPathSum.hasPathSum" />
+    <configuration name="DiagonalSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DiagonalSum" />
       <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hasPathSum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="minDepth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="minDepth.minDepth" />
+    <configuration name="FlipAndInvertImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FlipAndInvertImage" />
       <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="minDepth.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="runningSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="runningSum" />
+    <configuration name="LargestAltitude" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LargestAltitude" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="replaceElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="replaceElements" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,14 +127,17 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.climbStairs" />
-        <item itemvalue="应用程序.runningSum" />
-        <item itemvalue="应用程序.hasPathSum" />
-        <item itemvalue="应用程序.minDepth" />
+        <item itemvalue="应用程序.replaceElements" />
+        <item itemvalue="应用程序.FlipAndInvertImage" />
+        <item itemvalue="应用程序.DiagonalSum" />
+        <item itemvalue="应用程序.LargestAltitude" />
+        <item itemvalue="应用程序.BusyStudent" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -237,9 +207,33 @@
       <workItem from="1590484153183" duration="1097000" />
       <workItem from="1590831414795" duration="6112000" />
       <workItem from="1590929848339" duration="17000" />
-      <workItem from="1594117736920" duration="259000" />
-      <workItem from="1646314833151" duration="308000" />
-      <workItem from="1646359636363" duration="4501000" />
+      <workItem from="1594117736920" duration="2630000" />
+      <workItem from="1617797904556" duration="2184000" />
+      <workItem from="1617884950899" duration="2046000" />
+      <workItem from="1617970099719" duration="2334000" />
+      <workItem from="1618313494775" duration="3734000" />
+      <workItem from="1618360551405" duration="1624000" />
+      <workItem from="1618400006002" duration="4779000" />
+      <workItem from="1618452546787" duration="2681000" />
+      <workItem from="1618576380110" duration="603000" />
+      <workItem from="1618836305723" duration="1550000" />
+      <workItem from="1618919882501" duration="1980000" />
+      <workItem from="1619005507283" duration="2536000" />
+      <workItem from="1619091821505" duration="4072000" />
+      <workItem from="1619138399005" duration="450000" />
+      <workItem from="1619258728802" duration="2465000" />
+      <workItem from="1619352335392" duration="2888000" />
+      <workItem from="1619438308572" duration="5098000" />
+      <workItem from="1619524589660" duration="1955000" />
+      <workItem from="1619611727381" duration="1708000" />
+      <workItem from="1619696602511" duration="3638000" />
+      <workItem from="1619937188477" duration="616000" />
+      <workItem from="1621253176163" duration="592000" />
+      <workItem from="1621338660846" duration="2204000" />
+      <workItem from="1621425714769" duration="1956000" />
+      <workItem from="1621511587207" duration="4158000" />
+      <workItem from="1622030334265" duration="2578000" />
+      <workItem from="1622116510672" duration="3404000" />
     </task>
     <task id="LOCAL-00001" summary="2. 两数相加">
       <created>1586068483076</created>
@@ -388,11 +382,172 @@
       <option name="project" value="LOCAL" />
       <updated>1590153775499</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="1480. 一维数组的动态和">
+      <created>1594118014312</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1594118014312</updated>
+    </task>
+    <task id="LOCAL-00023" summary="剑指 Offer 10- II. 青蛙跳台阶问题 Frog_platform">
+      <created>1617800102440</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1617800102440</updated>
+    </task>
+    <task id="LOCAL-00024" summary="剑指 Offer 10- I. 斐波那契数列 Fibonacci">
+      <created>1617886397571</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1617886397571</updated>
+    </task>
+    <task id="LOCAL-00025" summary="第 N 个泰波那契数 Tibonacci">
+      <created>1617971282919</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1617971282919</updated>
+    </task>
+    <task id="LOCAL-00026" summary="剑指 Offer 05. 替换空格  ReplaceSpace">
+      <created>1618316887858</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1618316887858</updated>
+    </task>
+    <task id="LOCAL-00027" summary="面试题 08.06. 汉诺塔问题 Hanota">
+      <created>1618467272225</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1618467272225</updated>
+    </task>
+    <task id="LOCAL-00028" summary="1672. 最富有客户的资产总量 MaximumWealth">
+      <created>1618837833871</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1618837833871</updated>
+    </task>
+    <task id="LOCAL-00029" summary="1512. 好数对的数目 NumIdenticalPairs">
+      <created>1618921135454</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1618921135454</updated>
+    </task>
+    <task id="LOCAL-00030" summary="拥有最多糖果的孩子 KidsWithCandies">
+      <created>1619006816363</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1619006816363</updated>
+    </task>
+    <task id="LOCAL-00031" summary="拥有最多糖果的孩子 KidsWithCandies">
+      <created>1619006941106</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1619006941106</updated>
+    </task>
+    <task id="LOCAL-00032" summary="重新排列数组 Shuffle">
+      <created>1619094992713</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1619094992713</updated>
+    </task>
+    <task id="LOCAL-00033" summary="数组异或操作 XorOperation">
+      <created>1619259383489</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1619259383489</updated>
+    </task>
+    <task id="LOCAL-00034" summary="统计匹配检索规则的物品数量 CountMatches">
+      <created>1619354600530</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1619354600530</updated>
+    </task>
+    <task id="LOCAL-00035" summary="按既定顺序创建目标数组 CreateTargetArray">
+      <created>1619443049123</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1619443049123</updated>
+    </task>
+    <task id="LOCAL-00036" summary="解压缩编码列表 DecompressRLElist">
+      <created>1619526346590</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1619526346590</updated>
+    </task>
+    <task id="LOCAL-00037" summary="有多少小于当前数字的数字 SmallerNumbersThanCurrent">
+      <created>1619612820416</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1619612820416</updated>
+    </task>
+    <task id="LOCAL-00038" summary="访问所有点的最小时间 MinTimeToVisitAllPoints">
+      <created>1619700714037</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1619700714037</updated>
+    </task>
+    <task id="LOCAL-00039" summary="统计位数为偶数的数字 FindNumbers">
+      <created>1621253637312</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1621253637312</updated>
+    </task>
+    <task id="LOCAL-00040" summary="最少操作使数组递增 MinOperations">
+      <created>1621340397669</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1621340397669</updated>
+    </task>
+    <task id="LOCAL-00041" summary="既定时间做作业的学生人数 BusyStudent">
+      <created>1621426293161</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1621426293161</updated>
+    </task>
+    <task id="LOCAL-00042" summary="找到最高海拔 LargestAltitude">
+      <created>1621428098796</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1621428098796</updated>
+    </task>
+    <task id="LOCAL-00043" summary="矩阵对角线元素的和 [DiagonalSum]">
+      <created>1621515926754</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1621515926754</updated>
+    </task>
+    <task id="LOCAL-00044" summary="翻转图像 [FlipAndInvertImage]">
+      <created>1622032865925</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1622032865925</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -404,27 +559,97 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2. 两数相加" />
-    <MESSAGE value="7. 整数反转" />
-    <MESSAGE value="9. 回文数" />
-    <MESSAGE value="13. 罗马数字转整数" />
-    <MESSAGE value="20.&#9;有效的括号" />
-    <MESSAGE value="删除排序数组中的重复项" />
-    <MESSAGE value="27.移除元素" />
-    <MESSAGE value="28. 实现 strStr()" />
-    <MESSAGE value="35. 搜索插入位置" />
-    <MESSAGE value="38. 外观数列" />
-    <MESSAGE value="53. 最大子序和" />
-    <MESSAGE value="58. 最后一个单词的长度" />
-    <MESSAGE value="100.相同的树" />
-    <MESSAGE value="101. 对称二叉树" />
-    <MESSAGE value="104. 二叉树的最大深度" />
     <MESSAGE value="102&amp;107. 二叉树的层序遍历" />
     <MESSAGE value="110. 平衡二叉树" />
     <MESSAGE value="111. 二叉树的最小深度" />
-    <option name="LAST_COMMIT_MESSAGE" value="111. 二叉树的最小深度" />
+    <MESSAGE value="1480. 一维数组的动态和" />
+    <MESSAGE value="剑指 Offer 10- II. 青蛙跳台阶问题 Frog_platform" />
+    <MESSAGE value="剑指 Offer 10- I. 斐波那契数列 Fibonacci" />
+    <MESSAGE value="第 N 个泰波那契数 Tibonacci" />
+    <MESSAGE value="剑指 Offer 05. 替换空格  ReplaceSpace" />
+    <MESSAGE value="面试题 08.06. 汉诺塔问题 Hanota" />
+    <MESSAGE value="1672. 最富有客户的资产总量 MaximumWealth" />
+    <MESSAGE value="1512. 好数对的数目 NumIdenticalPairs" />
+    <MESSAGE value="拥有最多糖果的孩子 KidsWithCandies" />
+    <MESSAGE value="重新排列数组 Shuffle" />
+    <MESSAGE value="数组异或操作 XorOperation" />
+    <MESSAGE value="统计匹配检索规则的物品数量 CountMatches" />
+    <MESSAGE value="按既定顺序创建目标数组 CreateTargetArray" />
+    <MESSAGE value="解压缩编码列表 DecompressRLElist" />
+    <MESSAGE value="有多少小于当前数字的数字 SmallerNumbersThanCurrent" />
+    <MESSAGE value="访问所有点的最小时间 MinTimeToVisitAllPoints" />
+    <MESSAGE value="统计位数为偶数的数字 FindNumbers" />
+    <MESSAGE value="最少操作使数组递增 MinOperations" />
+    <MESSAGE value="既定时间做作业的学生人数 BusyStudent" />
+    <MESSAGE value="找到最高海拔 LargestAltitude" />
+    <MESSAGE value="矩阵对角线元素的和 [DiagonalSum]" />
+    <MESSAGE value="翻转图像 [FlipAndInvertImage]" />
+    <option name="LAST_COMMIT_MESSAGE" value="翻转图像 [FlipAndInvertImage]" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="391" height="466" key="DebuggerActiveHint" timestamp="1622118231125">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="391" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1622118231125" />
+    <state width="1492" height="230" key="GridCell.Tab.0.bottom" timestamp="1622119787025">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="103" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1619273907000" />
+    <state width="1492" height="230" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622119787025" />
+    <state width="1492" height="230" key="GridCell.Tab.0.center" timestamp="1622119787025">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="103" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1619273906999" />
+    <state width="1492" height="230" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622119787024" />
+    <state width="1492" height="230" key="GridCell.Tab.0.left" timestamp="1622119787024">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="103" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1619273906999" />
+    <state width="1492" height="230" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622119787024" />
+    <state width="1492" height="230" key="GridCell.Tab.0.right" timestamp="1622119787025">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="103" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1619273907000" />
+    <state width="1492" height="230" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622119787025" />
+    <state width="1492" height="230" key="GridCell.Tab.1.bottom" timestamp="1622119787156">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="230" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622119787156" />
+    <state width="1492" height="230" key="GridCell.Tab.1.center" timestamp="1622119787156">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="230" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1622119787156" />
+    <state width="1492" height="230" key="GridCell.Tab.1.left" timestamp="1622119787156">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="230" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1622119787156" />
+    <state width="1492" height="230" key="GridCell.Tab.1.right" timestamp="1622119787156">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="230" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1622119787156" />
+    <state x="270" y="57" key="SettingsEditor" timestamp="1617971805971">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1617971805971" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1622032883025">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622032883025" />
+    <state x="486" y="199" key="git4idea.merge.GitPullDialog" timestamp="1622032873889">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="486" y="199" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1622032873889" />
+    <state x="470" y="168" key="refactoring.ChangeSignatureDialog" timestamp="1618402255047">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="470" y="168" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1618402255047" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1619525088725">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1619525088725" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -615,23 +840,145 @@
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/climbStairs.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="43" />
+          <url>file://$PROJECT_DIR$/src/Frog_platform.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/climbStairs.java</url>
-          <line>37</line>
+          <url>file://$PROJECT_DIR$/src/Fibonacci.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Fibonacci.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tibonacci.java</url>
+          <line>19</line>
           <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tibonacci.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tibonacci.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Shuffle.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Shuffle.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CreateTargetArray.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DecompressRLElist.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DecompressRLElist.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MinTimeToVisitAllPoints.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MinTimeToVisitAllPoints.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DiagonalSum.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DiagonalSum.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DiagonalSum.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DiagonalSum.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DiagonalSum.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DiagonalSum.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/FlipAndInvertImage.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/replaceElements.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/replaceElements.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/replaceElements.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/replaceElements.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/replaceElements.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/replaceElements.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/replaceElements.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="77" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="charAt" />
-        <watch expression="left" />
-        <watch expression="right" />
-        <watch expression="minDepth(root.right)" />
+        <watch expression="j" />
       </configuration>
     </watches-manager>
   </component>

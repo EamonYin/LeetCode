@@ -23,6 +23,46 @@
 20. 树的前、中、后序遍历（非Leetcode题） TreeTraversal.TreeTraversal  
 21. 将有序数组转换为二叉搜索树 sortedArrayToBST.sortedArrayToBST  
 22. 平衡二叉树 isBalanced.isBalanced  
-23. 一维数组的动态和 runningSum
-24. 爬楼梯 climbStairs
+23. 一维数组的动态和 runningSum  
+24. 剑指 Offer 10- II. 青蛙跳台阶问题 Frog_platform  
+25. 剑指 Offer 10- I. 斐波那契数列 Fibonacci  
+26. 第 N 个泰波那契数 Tibonacci  
+27. 剑指 Offer 05. 替换空格  ReplaceSpace  
+28. 面试题 08.06. 汉诺塔问题 Hanota  
+29. 最富有客户的资产总量 MaximumWealth  
+30. 好数对的数目 NumIdenticalPairs  
+31. 拥有最多糖果的孩子 KidsWithCandies  
+32. 重新排列数组 Shuffle  
+33. 数组异或操作 XorOperation  
+34. 统计匹配检索规则的物品数量 CountMatches  
+35. 按既定顺序创建目标数组 CreateTargetArray  
+36. 解压缩编码列表 DecompressRLElist  
+37. 有多少小于当前数字的数字 SmallerNumbersThanCurrent  
+38. 访问所有点的最小时间 [MinTimeToVisitAllPoints](https://leetcode-cn.com/problems/minimum-time-visiting-all-points/)  
+39. 统计位数为偶数的数字 FindNumbers  
+40. 最少操作使数组递增 MinOperations  
+41. 在既定时间做作业的学生人数 BusyStudent  
+42. 找到最高海拔 LargestAltitude  
+43. 矩阵对角线元素的和 [DiagonalSum](https://leetcode-cn.com/problems/matrix-diagonal-sum/solution/ju-zhen-dui-jiao-xian-yuan-su-de-he-by-leetcode-so/)  
+44. 翻转图像 [FlipAndInvertImage](https://leetcode-cn.com/problems/flipping-an-image/solution/liang-chong-jie-fa-by-uive-x3vk/)  
+45. 将每个元素替换为右侧最大元素 [replaceElements(有个用例自己的方法超时了)](https://leetcode-cn.com/problems/replace-elements-with-greatest-element-on-right-side/solution/cong-you-wang-zuo-yi-ci-bian-li-by-lirunjun/)  
+46. 爬楼梯 climbStairs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
